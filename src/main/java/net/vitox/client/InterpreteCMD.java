@@ -51,6 +51,7 @@ public class InterpreteCMD implements Runnable {
                                     }
                                 }
                             }).start();
+                            break;
 
                         case "DOWNLOAD_AND_EXECUTE":
                             new Thread(() -> {
